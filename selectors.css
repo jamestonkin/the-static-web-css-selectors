@@ -1,0 +1,58 @@
+header {
+  border: 1px solid orange;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+header ul li {
+  float: left;
+  width: 20%;
+}
+
+.disabled {
+  color: gray;
+}
+
+li a span.disabled, div a span span.disabled{
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.parent div div {
+  color: red;
+}
+
+.parent div div:nth-child(3) {
+  color: blue;
+}
+
+.parent div h4 {
+  background: red;;
+}
+
+.parent div h4:nth-child(4) {
+  background: blue;
+}
+
+.grandparent > h4 {
+  border: 1px solid yellow;
+  border-radius: 20%;
+}
+
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+
+footer span input {
+  height: 25px;
+}
